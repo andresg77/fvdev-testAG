@@ -1,0 +1,27 @@
+.accordionSection {
+    flex-direction: column;
+    background-color: #dedede;
+    border-radius:10px;
+    margin-bottom:3px;
+}
+.accordionSection:last-of-type{
+    margin-bottom: 0;
+}
+.accordionTitle {
+    background-image: linear-gradient(#fec500, #eea30e);
+    width:100%;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding:20px 10px;
+    border-radius:10px;
+    border-color: #fff;
+    text-align: left;
+    font-size:16px;
+    text-shadow: 0px 1px #000;
+}  
+.accordionContent {
+    overflow: hidden;
+    padding:10px;
+}
+  

@@ -1,0 +1,31 @@
+#masterForm{
+    width:700px;
+    background-color: #FFF;
+    padding:3px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #444;
+}
+#masterForm label{
+    display: block;
+    margin-top:5px;
+}
+#masterForm input, #masterForm select{
+    display: block;
+    padding:10px;
+    border:0;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px #444;
+}
+#masterForm textarea{
+    display: block;
+    width: 80%;
+    padding:10px;
+    border:0;
+    border-radius:10px;
+    box-shadow: inset 0px 0px 5px #444;
+   
+}
+.dateOfBirth{
+    display:inline-block!important;
+    margin-right:5px;
+}
